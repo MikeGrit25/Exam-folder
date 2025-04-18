@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Navigation Bar -->
+  <!-- Navigation -->
   <nav>
     <h1><a href="#home" class="logo">Startup Awards</a></h1>
     <ul>
@@ -18,33 +18,33 @@
     </ul>
   </nav>
 
-  <!-- Hero Slider -->
+  <!-- Hero Section -->
   <section class="hero-slider" id="home">
     <div class="slider">
       <div class="slide active">
-        <img src="/Assets/TEC Startup.jpg" alt="Tech Startup" />
+        <img src="/Images/TEC Startup.jpg" alt="Tech Startup" />
         <div class="caption">Innovating with Technology</div>
       </div>
       <div class="slide">
-        <img src="/Assets/HomeStartup.jpg" alt="Home Startup" />
+        <img src="/Images/HomeStartup.jpg" alt="Home Startup" />
         <div class="caption">Empowering Home Solutions</div>
       </div>
       <div class="slide">
-        <img src="/Assets/Softwaregal.jpg" alt="Engineer Startup" />
+        <img src="/Images/Softwaregal.jpg" alt="Engineer Startup" />
         <div class="caption">Engineering the Future</div>
       </div>
     </div>
   </section>
 
-  <!-- About Us Section -->
+  <!-- About Us -->
   <section id="about">
     <h2>About Us</h2>
     <p>We bring together the brightest startups under one roof to showcase innovation, network, and award the best in the business.</p>
-    <div id="about-cards"></div>
+    <div id="about-cards" class="grid-container"></div>
   </section>
 
-  <!-- Our Services Section -->
-  <section id="services">
+  <!-- Services -->
+  <section id="services" style="text-align: center;">
     <h2>Our Services</h2>
     <ul>
       <li>Startup Exhibition Booths</li>
@@ -57,20 +57,19 @@
     </ul>
   </section>
 
+  <!-- Startups -->
   <section id="startups">
     <h2>Current Startups</h2>
     <button id="load-users">Load New Startups</button>
     <div id="card-container" class="grid-container"></div>
   </section>
-  
 
-  <!-- Award Section -->
+  <!-- Awards -->
   <section id="awards">
     <h2>Award Recipients</h2>
     <div class="grid-container">
-      <!-- These are dynamic cards with links to respective sites -->
       <div class="award-card">
-        <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="Recipient 1">
+        <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="Recipient 1" />
         <div class="award-info">
           <h3>John Doe - Virellax</h3>
           <p>Innovating health tech solutions</p>
@@ -78,39 +77,39 @@
         </div>
       </div>
       <div class="award-card">
-        <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="Recipient 2">
+        <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="Recipient 2" />
         <div class="award-info">
           <h3>Jane Smith - Premier Suns</h3>
           <p>Leading solar energy innovations</p>
           <a href="https://premiersuns.com" target="_blank">Visit Website</a>
         </div>
       </div>
-      <!-- More award recipients will be added dynamically -->
-    </div><section class="profile-card">
-      <div class="card" id="profile">
-        <h3>Developer Profile</h3>
-        <img src="/Assets/Co-Founder 1.png" alt="Michael Anyanwu" class="profile-img" />
-        <button id="toggle-profile">View Profile</button>
-        <div class="profile-details hidden">
-          <h1><strong>Name:</strong> Michael Anyanwu</h1>
-          <div><strong>Education:</strong>
-            <ul>
-              <li>Backend Web Development</li>
-              <li>Fiber Optics Installations</li>
-              <li>Industry Class Assmbling</li>
-              <li>Networking Technician  (CCNA, CCNP Tshhot, Routing, Switching)
+    </div>
+  </section>
 
-              </li>
-            </div>
-            
-          <p><strong>Residence:</strong> Västerås, Sweden</p>
-          <p><strong>Email:</strong> <a href="mailto:micany225@gmail.com">micany225@gmail.com</a></p>
+  <!-- Developer Profile -->
+  <section class="profile-card">
+    <div class="card" id="profile">
+      <h3>Developer Profile</h3>
+      <img src="/Images/Co-Founder 1.png" alt="Michael Anyanwu" class="profile-img" />
+      <button id="toggle-profile">View Profile</button>
+      <div class="profile-details hidden">
+        <h1><strong>Name:</strong> Michael Anyanwu</h1>
+        <div><strong>Education:</strong>
+          <ul>
+            <li>Backend Web Development</li>
+            <li>Fiber Optics Installations</li>
+            <li>Industry Class Assembling</li>
+            <li>Networking Technician (CCNA, CCNP Tshoot, Routing, Switching)</li>
+          </ul>
         </div>
+        <p><strong>Residence:</strong> Västerås, Sweden</p>
+        <p><strong>Email:</strong> <a href="mailto:micany225@gmail.com">micany225@gmail.com</a></p>
       </div>
-    </section>
-    
-  
-  <!-- Footer Section -->
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 Startup Awards Showcase. All rights reserved.</p>
   </footer>
